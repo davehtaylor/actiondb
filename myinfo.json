@@ -1,0 +1,729 @@
+{
+ "kind": "civicinfo#voterInfoResponse",
+ "election": {
+  "id": "2000",
+  "name": "VIP Test Election",
+  "electionDay": "2021-06-06",
+  "ocdDivisionId": "ocd-division/country:us"
+ },
+ "normalizedInput": {
+  "line1": "101 Main Street",
+  "city": "Lafayette",
+  "state": "IN",
+  "zip": "47901"
+ },
+ "contests": [
+  {
+   "type": "General",
+   "office": "United States Representative - District 4",
+   "level": [
+    "country"
+   ],
+   "roles": [
+    "legislatorLowerBody"
+   ],
+   "district": {
+    "name": "Indiana's 4th congressional district",
+    "scope": "congressional",
+    "id": "ocd-division/country:us/state:in/cd:4"
+   },
+   "candidates": [
+    {
+     "name": "John Dale",
+     "party": "Democratic",
+     "candidateUrl": "http://www.johndale4congress.com/",
+     "channels": [
+      {
+       "type": "Facebook",
+       "id": "https://www.facebook.com/electjohndale"
+      },
+      {
+       "type": "Twitter",
+       "id": "https://twitter.com/electjohndale"
+      },
+      {
+       "type": "YouTube",
+       "id": "https://www.youtube.com/channel/UCwviWcYw3_mIFwDjm_ZPjng"
+      }
+     ]
+    },
+    {
+     "name": "Todd Rokita",
+     "party": "Republican",
+     "candidateUrl": "http://www.toddrokita.com/",
+     "channels": [
+      {
+       "type": "Facebook",
+       "id": "https://www.facebook.com/RokitaCongress"
+      },
+      {
+       "type": "Twitter",
+       "id": "https://twitter.com/rokitacongress"
+      },
+      {
+       "type": "YouTube",
+       "id": "https://www.youtube.com/user/RokitaforCongress"
+      }
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "name": "Ballot Information Project",
+     "official": false
+    }
+   ]
+  },
+  {
+   "type": "General",
+   "office": "Treasurer of State",
+   "level": [
+    "administrativeArea1"
+   ],
+   "roles": [
+    "governmentOfficer"
+   ],
+   "district": {
+    "name": "Indiana",
+    "scope": "statewide",
+    "id": "ocd-division/country:us/state:in"
+   },
+   "candidates": [
+    {
+     "name": "Mike Boland",
+     "party": "Democratic"
+    },
+    {
+     "name": "Michael L. (Mike) Jasper",
+     "party": "Libertarian",
+     "channels": [
+      {
+       "type": "Facebook",
+       "id": "https://www.facebook.com/652058784865063"
+      }
+     ]
+    },
+    {
+     "name": "Kelly Mitchell",
+     "party": "Republican",
+     "candidateUrl": "http://www.votekellymitchell.com/",
+     "channels": [
+      {
+       "type": "Twitter",
+       "id": "https://twitter.com/kellyforindiana"
+      },
+      {
+       "type": "YouTube",
+       "id": "https://www.youtube.com/channel/UC5J60n-tDQNZ9hNbHNnPgDw"
+      }
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "name": "Ballot Information Project",
+     "official": false
+    }
+   ]
+  },
+  {
+   "type": "General",
+   "office": "Auditor of State",
+   "level": [
+    "administrativeArea1"
+   ],
+   "roles": [
+    "governmentOfficer"
+   ],
+   "district": {
+    "name": "Indiana",
+    "scope": "statewide",
+    "id": "ocd-division/country:us/state:in"
+   },
+   "candidates": [
+    {
+     "name": "Michael A. Claytor",
+     "party": "Democratic",
+     "candidateUrl": "http://www.claytor4auditor.com/",
+     "channels": [
+      {
+       "type": "Facebook",
+       "id": "https://www.facebook.com/addclaytor"
+      },
+      {
+       "type": "Twitter",
+       "id": "https://twitter.com/AddClaytor"
+      }
+     ]
+    },
+    {
+     "name": "John Schick",
+     "party": "Libertarian"
+    },
+    {
+     "name": "Suzanne Crouch",
+     "party": "Republican",
+     "candidateUrl": "http://www.suzannecrouch.com",
+     "channels": [
+      {
+       "type": "Facebook",
+       "id": "https://www.facebook.com/crouchforauditor"
+      }
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "name": "Ballot Information Project",
+     "official": false
+    }
+   ]
+  },
+  {
+   "type": "General",
+   "office": "Secretary of State",
+   "level": [
+    "administrativeArea1"
+   ],
+   "roles": [
+    "governmentOfficer"
+   ],
+   "district": {
+    "name": "Indiana",
+    "scope": "statewide",
+    "id": "ocd-division/country:us/state:in"
+   },
+   "candidates": [
+    {
+     "name": "Elizabeth \"Beth\" White",
+     "party": "Democratic",
+     "candidateUrl": "http://www.bethwhite.org/",
+     "channels": [
+      {
+       "type": "Facebook",
+       "id": "https://www.facebook.com/BethWhiteIndiana"
+      },
+      {
+       "type": "Twitter",
+       "id": "https://twitter.com/BethWhiteIN"
+      },
+      {
+       "type": "YouTube",
+       "id": "https://www.youtube.com/user/BethWhiteIndiana"
+      }
+     ]
+    },
+    {
+     "name": "Karl Tatgenhorst",
+     "party": "Libertarian",
+     "candidateUrl": "http://www.karlforindiana.com/",
+     "channels": [
+      {
+       "type": "Facebook",
+       "id": "https://www.facebook.com/ktat4sos"
+      },
+      {
+       "type": "Twitter",
+       "id": "https://twitter.com/KarlForIndiana"
+      }
+     ]
+    },
+    {
+     "name": "Connie Lawson",
+     "party": "Republican",
+     "candidateUrl": "http://www.voteconnielawson.com/",
+     "channels": [
+      {
+       "type": "Facebook",
+       "id": "https://www.facebook.com/373309922717773"
+      },
+      {
+       "type": "Twitter",
+       "id": "https://twitter.com/VoteConnie"
+      }
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "name": "Ballot Information Project",
+     "official": false
+    }
+   ]
+  },
+  {
+   "type": "General",
+   "office": "State Representative - District 27",
+   "level": [
+    "administrativeArea1"
+   ],
+   "roles": [
+    "legislatorLowerBody"
+   ],
+   "district": {
+    "name": "Indiana State House district 27",
+    "scope": "stateLower",
+    "id": "ocd-division/country:us/state:in/sldl:27"
+   },
+   "candidates": [
+    {
+     "name": "Sheila Klinker",
+     "party": "Democratic"
+    },
+    {
+     "name": "Chuck Hockema",
+     "party": "Republican",
+     "candidateUrl": "http://chuckhockema.com/",
+     "channels": [
+      {
+       "type": "Twitter",
+       "id": "https://twitter.com/chuckhockema"
+      }
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "name": "Ballot Information Project",
+     "official": false
+    }
+   ]
+  },
+  {
+   "type": "General",
+   "office": "Recorder",
+   "level": [
+    "administrativeArea2"
+   ],
+   "roles": [
+    "governmentOfficer"
+   ],
+   "district": {
+    "name": "Tippecanoe County",
+    "scope": "countywide",
+    "id": "ocd-division/country:us/state:in/county:tippecanoe"
+   },
+   "candidates": [
+    {
+     "name": "Shannon Withers",
+     "party": "Republican"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Ballot Information Project",
+     "official": false
+    }
+   ]
+  },
+  {
+   "type": "General",
+   "office": "Auditor",
+   "level": [
+    "administrativeArea2"
+   ],
+   "roles": [
+    "governmentOfficer"
+   ],
+   "district": {
+    "name": "Tippecanoe County",
+    "scope": "countywide",
+    "id": "ocd-division/country:us/state:in/county:tippecanoe"
+   },
+   "candidates": [
+    {
+     "name": "Robert A Plantenga",
+     "party": "Republican"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Ballot Information Project",
+     "official": false
+    }
+   ]
+  },
+  {
+   "type": "General",
+   "office": "Prosecuting Attorney - Tippecanoe County (23Rd Judicial Circuit)",
+   "level": [
+    "administrativeArea2"
+   ],
+   "roles": [
+    "governmentOfficer"
+   ],
+   "district": {
+    "name": "Tippecanoe County",
+    "scope": "countywide",
+    "id": "ocd-division/country:us/state:in/county:tippecanoe"
+   },
+   "candidates": [
+    {
+     "name": "Patrick Harrington",
+     "party": "Republican"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Ballot Information Project",
+     "official": false
+    }
+   ]
+  },
+  {
+   "type": "General",
+   "office": "Assessor",
+   "level": [
+    "administrativeArea2"
+   ],
+   "roles": [
+    "governmentOfficer"
+   ],
+   "district": {
+    "name": "Tippecanoe County",
+    "scope": "countywide",
+    "id": "ocd-division/country:us/state:in/county:tippecanoe"
+   },
+   "candidates": [
+    {
+     "name": "Linda Phillips",
+     "party": "Republican"
+    },
+    {
+     "name": "Eric Grossman",
+     "party": "Democratic",
+     "channels": [
+      {
+       "type": "Facebook",
+       "id": "https://www.facebook.com/grossman4assessor"
+      }
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "name": "Ballot Information Project",
+     "official": false
+    }
+   ]
+  },
+  {
+   "type": "General",
+   "office": "Sheriff",
+   "level": [
+    "administrativeArea2"
+   ],
+   "roles": [
+    "governmentOfficer"
+   ],
+   "district": {
+    "name": "Tippecanoe County",
+    "scope": "countywide",
+    "id": "ocd-division/country:us/state:in/county:tippecanoe"
+   },
+   "candidates": [
+    {
+     "name": "Barry Richard",
+     "party": "Republican"
+    },
+    {
+     "name": "Chris Schiuszi",
+     "party": "Independent",
+     "channels": [
+      {
+       "type": "Facebook",
+       "id": "https://www.facebook.com/schiuszi4sheriff"
+      }
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "name": "Ballot Information Project",
+     "official": false
+    }
+   ]
+  },
+  {
+   "type": "General",
+   "office": "Clerk Of The Circuit Court",
+   "level": [
+    "administrativeArea2"
+   ],
+   "roles": [
+    "governmentOfficer"
+   ],
+   "district": {
+    "name": "Tippecanoe County",
+    "scope": "countywide",
+    "id": "ocd-division/country:us/state:in/county:tippecanoe"
+   },
+   "candidates": [
+    {
+     "name": "Christa Coffey",
+     "party": "Republican"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Ballot Information Project",
+     "official": false
+    }
+   ]
+  },
+  {
+   "type": "General",
+   "office": "County  Commissioner District 1",
+   "level": [
+    "administrativeArea2"
+   ],
+   "roles": [
+    "legislatorLowerBody"
+   ],
+   "district": {
+    "name": "Tippecanoe County",
+    "scope": "countywide",
+    "id": "ocd-division/country:us/state:in/county:tippecanoe"
+   },
+   "candidates": [
+    {
+     "name": "Tracy A Brown",
+     "party": "Republican"
+    },
+    {
+     "name": "Garrett J Klein",
+     "party": "Libertarian"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Ballot Information Project",
+     "official": false
+    }
+   ]
+  },
+  {
+   "type": "General",
+   "office": "Judge Of The Superior Court #1",
+   "level": [
+    "administrativeArea2"
+   ],
+   "roles": [
+    "judge"
+   ],
+   "district": {
+    "name": "Tippecanoe County",
+    "scope": "countywide",
+    "id": "ocd-division/country:us/state:in/county:tippecanoe"
+   },
+   "candidates": [
+    {
+     "name": "Randy J Williams",
+     "party": "Republican"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Ballot Information Project",
+     "official": false
+    }
+   ]
+  },
+  {
+   "type": "General",
+   "office": "Judge Of The Circuit Court",
+   "level": [
+    "administrativeArea2"
+   ],
+   "roles": [
+    "judge"
+   ],
+   "district": {
+    "name": "Tippecanoe County",
+    "scope": "countywide",
+    "id": "ocd-division/country:us/state:in/county:tippecanoe"
+   },
+   "candidates": [
+    {
+     "name": "Les A Meade",
+     "party": "Republican"
+    },
+    {
+     "name": "Thomas H Busch",
+     "party": "Democratic"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Ballot Information Project",
+     "official": false
+    }
+   ]
+  },
+  {
+   "type": "General",
+   "office": "Judge Of The Superior Court #2",
+   "level": [
+    "administrativeArea2"
+   ],
+   "roles": [
+    "judge"
+   ],
+   "district": {
+    "name": "Tippecanoe County",
+    "scope": "countywide",
+    "id": "ocd-division/country:us/state:in/county:tippecanoe"
+   },
+   "candidates": [
+    {
+     "name": "Rebecca A Trent",
+     "party": "Republican"
+    },
+    {
+     "name": "Steven P Meyer",
+     "party": "Democratic"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Ballot Information Project",
+     "official": false
+    }
+   ]
+  },
+  {
+   "type": "General",
+   "office": "Judge Of The Superior Court #5",
+   "level": [
+    "administrativeArea2"
+   ],
+   "roles": [
+    "judge"
+   ],
+   "district": {
+    "name": "Tippecanoe County",
+    "scope": "countywide",
+    "id": "ocd-division/country:us/state:in/county:tippecanoe"
+   },
+   "candidates": [
+    {
+     "name": "Sean M Persin",
+     "party": "Republican",
+     "channels": [
+      {
+       "type": "Facebook",
+       "id": "https://www.facebook.com/seanpersinforjudge"
+      }
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "name": "Ballot Information Project",
+     "official": false
+    }
+   ]
+  },
+  {
+   "type": "General",
+   "office": "Judge Of The Superior Court #4",
+   "level": [
+    "administrativeArea2"
+   ],
+   "roles": [
+    "judge"
+   ],
+   "district": {
+    "name": "Tippecanoe County",
+    "scope": "countywide",
+    "id": "ocd-division/country:us/state:in/county:tippecanoe"
+   },
+   "candidates": [
+    {
+     "name": "Laura Zeman",
+     "party": "Republican"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Ballot Information Project",
+     "official": false
+    }
+   ]
+  },
+  {
+   "type": "General",
+   "office": "County Council District 1",
+   "level": [
+    "administrativeArea2"
+   ],
+   "roles": [
+    "legislatorUpperBody"
+   ],
+   "district": {
+    "name": "Tippecanoe County IN County Council district 1",
+    "scope": "countyCouncil",
+    "id": "ocd-division/country:us/state:in/county:tippecanoe/council_district:1"
+   },
+   "candidates": [
+    {
+     "name": "Dave Williams",
+     "party": "Republican"
+    }
+   ],
+   "sources": [
+    {
+     "name": "Ballot Information Project",
+     "official": false
+    }
+   ]
+  }
+ ],
+ "state": [
+  {
+   "name": "Indiana",
+   "electionAdministrationBody": {
+    "name": "Indiana Secretary of State",
+    "electionInfoUrl": "http://www.in.gov/sos/elections",
+    "votingLocationFinderUrl": "https://indianavoters.in.gov/",
+    "ballotInfoUrl": "https://indianavoters.in.gov/",
+    "correspondenceAddress": {
+     "line1": "302 W Washington St., Room E204",
+     "city": "Indianapolis",
+     "state": "Indiana",
+     "zip": "46204-2767"
+    }
+   },
+   "local_jurisdiction": {
+    "name": "Tippecanoe County",
+    "electionAdministrationBody": {
+     "electionInfoUrl": "http://www.tippecanoe.in.gov/department/?structureid=20",
+     "physicalAddress": {
+      "line1": "20 N 3RD ST FL 3",
+      "city": "LAFAYETTE",
+      "state": "IN",
+      "zip": "47901-1205"
+     },
+     "electionOfficials": [
+      {
+       "officePhoneNumber": "(765) 423-9326, (765) 423-9316",
+       "emailAddress": "electionboard@tippecanoe.in.gov"
+      }
+     ]
+    },
+    "sources": [
+     {
+      "name": "DemocracyWorks",
+      "official": false
+     }
+    ]
+   },
+   "sources": [
+    {
+     "name": "",
+     "official": false
+    }
+   ]
+  }
+ ]
+}
